@@ -1,0 +1,55 @@
+1. Get search criteria from user, can choose all four
+    a. Artist
+        Provide placeholder examples, artist card
+    b. Song
+        Provide placeholder examples, song card
+    c. Album
+        Provide placeholder examples, album card
+    d. Word/emotion
+        Provide placeholder examples, list of random emotions/words
+
+2. Word criteria: if provided, parse for sentiment
+    a. Find word => sentiment grader
+
+3. Derive sentiment from provided music criteria
+
+4. Get results filter from user, 1 only
+    a. Artist
+    b. Song
+    c. Album
+
+5. Apply determined emotion with filter
+
+6. Fetch pseudo-random results
+
+Display Results
+7. Artist filter
+    a. Artist's name
+    b. Song, random, playable(?)
+        i. song title if unable to host media player client
+        ii. include relevant info(artist, album, year)
+
+8. Song filter
+	a. Song's name
+	b. Song playable(?)
+        i. song title if unable to host media player client
+        ii. include relevant info(artist, album, year)
+
+9. Album filter
+	a. Album's name
+	b. First song of album, playable(?)
+        i. song title if unable to host media player client
+        ii. include relevant info(artist, album, year)
+
+10. Display music video off to bottomLeft of song card
+	a. if available
+
+11. Display lyrics off to bottomRight of song card
+
+12. Display related artist/song/album at bottom
+	a. Show top 10 most related items
+	b. provide pop-out window for more related results
+
+
+
+
